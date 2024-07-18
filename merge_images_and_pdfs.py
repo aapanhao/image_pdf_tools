@@ -68,7 +68,7 @@ def confirm_origin_files():
 
 
 def merge_origin_files():
-    image_width = input(f"可以设置图片宽度(常用选项: 1000/800), 如果不设置, 可以直接回车, 会以图片原始大小进行转换; width: ")
+    image_width = input(f"可以设置图片宽度(常用选项: 1000或800), 如果不设置, 可以直接回车, 会以图片原始大小进行转换; width: ")
     print(f"图片宽度设置为: {image_width if image_width else '原始尺寸'}")
     print("开始合并image和pdf为pdf...")
 
